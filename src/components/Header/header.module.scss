@@ -1,9 +1,9 @@
-.headerContainer {
+.container {
   height: 5rem;
   border-bottom: 1px solid var(--gray-800);
 }
 
-.headerContent {
+.content {
   max-width: 1120px;
   height: 5rem;
   margin: 0 auto;
@@ -16,7 +16,7 @@
   }
 }
 
-.headerMenu {
+.menu {
   margin-left: 5rem;
   height: 5rem;
 
@@ -37,12 +37,12 @@
       color: var(--white);
     }
 
-    &.activeMenuLink {
+    &.active {
       color: var(--white);
       font-weight: bold;
     }
 
-    &.activeMenuLink::after {
+    &.active::after {
       content: "";
       height: 3px;
       border-radius: 3px 3px 0 0;

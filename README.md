@@ -42,6 +42,20 @@ Source Collection: subscriptions
 
 Terms: data.id
 ~~~    
+~~~
+Index name: subscription_by_user_ref
+
+Source Collection: subscriptions
+
+Terms: data.userId
+~~~  
+~~~
+Index name: subscription_by_status
+
+Source Collection: subscriptions
+
+Terms: data.status
+~~~  
 
 ### Stripe
 Crie uma conta no [<https://stripe.com/br>].

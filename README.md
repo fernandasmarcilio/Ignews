@@ -45,9 +45,20 @@ Terms: data.id
 
 ### Stripe
 Crie uma conta no [<https://stripe.com/br>].
+
 Para ter as chaves da API de teste:
 
 Dashboard -> Desenvolvedores -> Chaves da API
+
+### Prismic CMS
+Crie uma conta no [<https://prismic.io/>].
+
+No dashborad, crie um repositório.
+
+Depois em "Custom type", clique em criar um "Repeatable Type" com UID, Title e Rich Text.
+
+
+Para ter o endpoint e a chave da API: Settings -> API & Security
 
 
 ### Váriaveis locais
@@ -70,7 +81,11 @@ GITHUB_CLIENT_SECRET= Sua chave Client Secret
 FAUNADB_KEY= Chave secreta do FaunaDB
 
 # SECRET
-SIGNING_KEY= Sua chave para autenticação, você pode pegar uma randomica com o comando ```openssl rand -base64 32```
+SIGNING_KEY= Sua chave para autenticação, você pode pegar uma randomica com o comando: openssl rand -base64 32
+
+# Prismic CMS
+PRISMIC_ENDPOINT= endpoint da API
+PRISMIC_ACESS_TOKEN= Chave de acesso do prismic (Permanent access tokens)
 ~~~
 
 

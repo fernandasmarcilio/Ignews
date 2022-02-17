@@ -8,12 +8,31 @@ Foi desenvolvido através do curso Ignite da Rocketseat.
 ## Instalação
 Dentro da pasta Ignews, instale as depedências com o comando: ``yarn install``.
 
-### Stripe
-É necessário ter o Stripe CLI instalado <https://stripe.com/docs/stripe-cli>.
+## Executar o projeto
+Executar os comandos: ```yarn dev``` e ```yarn stripe```
 
-No windows eu utilizei o chocolatey: ```choco install stripe-cli```.
+## O que aprendi
+- Fundamentos do NextJS
+- SSR e SSG
+- Como suar uma API de pagamentos (Stripe)
+- Autenticação com Net Auth - OAuth com GitHub
+- Utilização de FaunaDB
+- Conceito de Serveless
+- Utilização de Prismic CMS
+- Criar testes unitários
+
+## Tecnologias utilizadas
+- ReactJS + NextJS
+- TypeScript
+- SASS
+- Stripes
+- Axios
+- FaunaDB
+- Prismic CMS
+- Jest
 
 ## Configuração
+
 ### FaunaDB
 Crie uma conta no FaunaDB [<https://fauna.com/>].
 - Crie um novo banco de dados na região de US.
@@ -58,6 +77,11 @@ Terms: data.status
 ~~~  
 
 ### Stripe
+É necessário ter o Stripe CLI instalado <https://stripe.com/docs/stripe-cli>.
+
+No windows eu utilizei o chocolatey: ```choco install stripe-cli```.
+
+
 Crie uma conta no [<https://stripe.com/br>].
 
 Para ter as chaves da API de teste:
@@ -101,8 +125,3 @@ SIGNING_KEY= Sua chave para autenticação, você pode pegar uma randomica com o
 PRISMIC_ENDPOINT= endpoint da API
 PRISMIC_ACESS_TOKEN= Chave de acesso do prismic (Permanent access tokens)
 ~~~
-
-
-## Executar o projeto
-Executar os comandos: ```yarn dev``` e ```yarn stripe```
-

@@ -5,13 +5,13 @@ ig.news é projeto de um blog com inscrição para ter acesso a todo o conteúdo
 
 Foi desenvolvido através do curso Ignite da Rocketseat.
 
-## Instalação
+## 🔧 Instalação
 Dentro da pasta Ignews, instale as depedências com o comando: ``yarn install``.
 
-## Executar o projeto
+## 🔧 Executar o projeto
 Executar os comandos: ```yarn dev``` e ```yarn stripe```
 
-## O que aprendi
+## 💪 O que aprendi
 - Fundamentos do NextJS
 - SSR e SSG
 - Como suar uma API de pagamentos (Stripe)
@@ -21,7 +21,7 @@ Executar os comandos: ```yarn dev``` e ```yarn stripe```
 - Utilização de Prismic CMS
 - Criar testes unitários
 
-## Tecnologias utilizadas
+## 👩‍💻 Tecnologias utilizadas
 - ReactJS + NextJS
 - TypeScript
 - SASS
@@ -31,7 +31,7 @@ Executar os comandos: ```yarn dev``` e ```yarn stripe```
 - Prismic CMS
 - Jest
 
-## Configuração
+## 🛠 Configuração
 
 ### FaunaDB
 Crie uma conta no FaunaDB [<https://fauna.com/>].
@@ -99,7 +99,7 @@ Depois em "Custom type", clique em criar um "Repeatable Type" com UID, Title e R
 Para ter o endpoint e a chave da API: Settings -> API & Security
 
 
-### Váriaveis locais
+### 🔑 Váriaveis locais
 Crie um arquivo ``.env.local`` na raiz do projeto.
 Adicione as seguintes chaves:
 
